@@ -10,7 +10,7 @@ venv/
 env/
 
 ####################################
-# Jupyter / notebooks
+# Jupyter / notebooks 
 ####################################
 .ipynb_checkpoints/
 

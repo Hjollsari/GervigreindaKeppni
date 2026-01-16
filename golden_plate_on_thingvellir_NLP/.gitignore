@@ -1,0 +1,63 @@
+####################################
+# Python / environments
+####################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+####################################
+# Jupyter / notebooks
+####################################
+.ipynb_checkpoints/
+
+####################################
+# Datasets (CRITICAL – very large)
+####################################
+data/
+**/data/
+datasets/
+**/datasets/
+
+####################################
+# Competition outputs / submissions
+####################################
+submission.zip
+**/submission.zip
+
+####################################
+# Model artifacts / checkpoints
+####################################
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.safetensors
+*.onnx
+
+####################################
+# Logs / caches
+####################################
+logs/
+*.log
+.cache/
+**/.cache/
+
+####################################
+# OS / editor noise
+####################################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+####################################
+# Temporary / misc
+####################################
+tmp/
+temp/
+*.tmp
